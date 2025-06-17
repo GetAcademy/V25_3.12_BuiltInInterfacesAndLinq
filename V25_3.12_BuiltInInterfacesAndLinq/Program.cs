@@ -1,11 +1,15 @@
-﻿int[] numbers = { 1, 2, 3 };
-foreach (var n in numbers)
-{
-    Console.WriteLine(n);
-}
+﻿
+using V25_3._12_BuiltInInterfacesAndLinq;
+using V25_3._12_BuiltInInterfacesAndLinq.CustomEnumerable;
+using V25_3._12_BuiltInInterfacesAndLinq.Extension;
+using V25_3._12_BuiltInInterfacesAndLinq.Foreach;
+using V25_3._12_BuiltInInterfacesAndLinq.LINQ;
 
-List<string> names = new() { "Dag", "Dagmar", "Dagros" };
-foreach (var name in names)
-{
-    Console.WriteLine(name);
-}
+IExample exampleToRun = null;
+
+// exampleToRun = new ForeachExample();
+// exampleToRun = new CustomEnumerableExample();
+// exampleToRun = new ExtensionExample();
+exampleToRun = new LinqExample();
+
+exampleToRun.Run();

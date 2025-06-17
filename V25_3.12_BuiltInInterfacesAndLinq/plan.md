@@ -1,0 +1,11 @@
+﻿### IEnumerable, Extensions, LINQ
+- Foreach kan brukes med array, List og mye annet
+- Basert på to innebygde interfacer
+    - **IEnumerable og IEnumerator**
+        - Innebygde interfacer
+        - Eksempler på interface
+        - Viktig i C#
+        - *Lage egen implementasjon*
+- **LINQ**
+- Extension methods
+- Builder patterns
