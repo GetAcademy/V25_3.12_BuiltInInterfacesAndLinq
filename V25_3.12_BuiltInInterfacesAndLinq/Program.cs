@@ -4,7 +4,7 @@ foreach (var n in numbers)
     Console.WriteLine(n);
 }
 
-List<string> names = new() { "Ada", "Bob", "Charlie" };
+List<string> names = new() { "Dag", "Dagmar", "Dagros" };
 foreach (var name in names)
 {
     Console.WriteLine(name);
